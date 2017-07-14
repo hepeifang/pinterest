@@ -1,0 +1,24 @@
+#flow-box{
+	margin: 10px auto 0 auto;
+	padding: 0;
+	position: relative;
+}
+#flow-box ul{
+	width: 100%;
+}
+#flow-box li{
+	width: 190px;
+	position: absolute;
+	/*padding: 10px;*/
+	border:solid 1px #efefef;  
+	opacity: 0;
+	-moz-opacity:0;
+	filter:alpha(opacity=0);
+	-webkit-transition:opacity 500ms ease-in-out;
+	-moz-transition:opacity 500ms ease-in-out;
+	-o-transition:opacity 500ms ease-in-out;
+	transition:opacity 500ms ease-in-out;
+}
+#flow-box li img{
+	width: 100%;
+}

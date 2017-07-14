@@ -1,0 +1,22 @@
+<?php
+	header("Content-Type:application/json;charset=utf-8");
+	$data='{"data":[
+		{"img":"../images/one.jpg"},
+		{"img":"../images/two.jpg"},
+		{"img":"../images/three.jpg"},
+		{"img":"../images/four.jpg"},
+		{"img":"../images/five.jpg"},
+		{"img":"../images/six.jpg"},
+		{"img":"../images/seven.jpg"},
+		{"img":"../images/eight.jpg"},
+		{"img":"../images/one.jpg"},
+		{"img":"../images/two.jpg"},
+		{"img":"../images/three.jpg"},
+		{"img":"../images/four.jpg"},
+		{"img":"../images/five.jpg"},
+		{"img":"../images/six.jpg"},
+		{"img":"../images/seven.jpg"},
+		{"img":"../images/eight.jpg"}
+	]}';
+	echo $data;
+?>
